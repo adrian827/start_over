@@ -1,0 +1,143 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poiret+One&display=swap');
+
+body {
+    /*background-color: #050505;*/
+    background-image: url('/start_over/pictures/matchlove.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+header {
+    background-color: #14131e;
+    margin: 0;
+    padding: 1%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14131e;
+}
+li {
+    font-family: 'Poiret One', cursive;
+    float: right;
+    color: white;
+}
+#logo {
+    font-size: 1.75em;
+}
+li a {
+    font-family: 'Poiret One', cursive;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:rgba(182, 0, 0, 0.8);
+}
+main {
+    margin: 0 50% 2% 0;
+    padding: 2%;
+}
+h2 {
+    color: ghostwhite;
+    font-family: 'Poiret One', cursive;    
+    text-align: left;
+    font-size: 1.75em;
+    margin-bottom: 0;
+    margin-left: 7%;
+}
+blockquote {
+    color: ghostwhite;
+    font-family: 'Poiret One', cursive;
+    font-style: italic;
+}
+hr {
+    margin: 1% 20% 1% 7%;
+}
+form {
+    background-color: #14131e;
+    color: whitesmoke;
+    padding: 2%;
+    opacity: .9;
+    box-shadow: 0px 5px 10px 0px rgba(255,255,255,0.7); 
+}       
+label {
+    padding: 1%;
+    margin-left: 7%;
+    font-family: 'Poiret One', cursive;
+}
+input {
+    padding: 1%;
+    font-size: .8em;
+    font-family: 'Poiret One', cursive;
+}
+input[type=submit] {
+    background-color: #c32a2a;
+    color: whitesmoke;
+    margin-left: 8%;
+    margin-top: 1%;
+    font-family: 'Limelight', cursive;
+    padding: 1%;
+    border: none;
+    font-size: .8em;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type=file] {
+    color: whitesmoke;
+    font-family: 'Limelight', cursive;
+    padding: 1%;
+    border: none;
+    font-size: .8em;
+    text-decoration: none;
+    cursor: pointer;
+}
+#users {
+    text-align: center;
+    background-color: rgba(21, 6, 45, 0.8);
+    margin: 5% 10% 0% 10%;
+    padding: 1%;
+    border-bottom: 2px double #eefdff;
+    border-width: thin;
+    font-weight: bold;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 10% 10% 10%;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 10px 0px rgba(255,255,255,0.7); 
+  }
+  .grid-item {
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1%;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    opacity: .9;
+  }
+  .grid-item:hover {
+    background-color: #14131e;
+    opacity: .91;
+    color: white;
+  }
+footer {
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    background-color: #14131e;
+    border-top: 2px solid #eefdff;
+    border-width: thin;
+    opacity: .9;
+}
